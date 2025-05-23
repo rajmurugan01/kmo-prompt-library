@@ -296,10 +296,10 @@ class PromptBrowser:
                             height=150, key=f"prompt_{index}")
 
 def main():
-    st.set_page_config(layout="wide", page_title="KMo's Prompt Creation Tool")
+    st.set_page_config(layout="wide", page_title="Raj's Prompt Creation Tool")
     set_theme()
     
-    st.title("KMo's Prompt Creation Tool")
+    st.title("Raj's Prompt Creation Tool")
     
     tabs = st.tabs(["Element Creator", "Element Editor", "Prompt Builder", "Browse Prompts"])
     
